@@ -1,0 +1,145 @@
+*{
+    margin: 1px;
+    padding: 0;
+    font-family: 'Gabarito' , sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    gap :10px;
+    margin: 5px;
+    align-items: center;
+}
+.navbar__s1
+{
+    color: #A435F0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid  black 2px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-grow: 1 ;
+}
+.navbar__s2 input{
+    border: none;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap :20px;
+    align-items: center;
+    margin-right: 30px;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    width: 100%;
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+.recommanded__container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin : 1px 10px;
+}
+.coursecard{
+    padding: 20px;
+    width: 275px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    }
+.coursecard p{
+    margin: 10px;
+}
+.coursecard:hover , .topics__container p:hover{
+    border-color: #007bff;
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.coursecard img{
+    border-radius: 5px;
+    width:100%;
+    height: 75%;
+}
+.sale-image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    margin : 1px 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.topics__container p{
+    padding: 10px;
+     border: solid black 1px;
+     flex-grow: 1;
+     flex-wrap: wrap;
+     flex-basis: 25%;
+     margin: 10px;
+}
+.popular{
+    padding: 10px;
+    margin-top: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.popular h1 ,h2{
+    padding: 10px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+.footer__one{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+}
+.navbar ,.categories{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
