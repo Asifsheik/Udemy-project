@@ -35,6 +35,12 @@
     gap :20px;
     
 }
+.navbar__s3 i:hover{
+    border-color: grey;
+    box-shadow: 0 8px 20px rgba(23, 26, 29, 0.3);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
 .categories{
     display: flex;
     justify-content: space-evenly;
