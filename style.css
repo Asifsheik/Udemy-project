@@ -9,8 +9,7 @@
     flex-basis: auto;
     justify-content: space-around;
     border-bottom: solid black 1px;
-    gap :10px;
-    margin: 5px;
+    gap :20px;
     align-items: center;
 }
 .navbar__s1
@@ -142,3 +141,6 @@
     width: 100%;
 }
 
+.context-section{
+    margin-left: 10px ;
+}
