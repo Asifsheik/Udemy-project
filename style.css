@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Gabarito' , sans-serif;
+    box-sizing: border-box;
 }
 .navbar{
     padding: 10px;
     display: flex;
-    flex-basis: auto;
     justify-content: space-around;
     border-bottom: solid black 1px;
     gap :20px;
@@ -22,7 +22,6 @@
     border-radius: 30px;
     display: flex;
     gap: 10px;
-    align-items: center;
     flex-grow: 1 ;
 }
 .navbar__s2 input{
@@ -34,22 +33,44 @@
 .navbar__s3{
     display: flex;
     gap :20px;
-    align-items: center;
+    
+}
+.navbar__s3 i:hover{
+    border-color: grey;
+    box-shadow: 0 8px 20px rgba(23, 26, 29, 0.3);
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 .categories{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 10px;
     border-bottom: solid black 1px;
-    width: 100%;
+    flex-grow: 1;
 }
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
 .categories p{
     background-color: #A435F0;
     color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 30px;
+    gap: 10px;
+    margin: 5px;
 }
-.recommanded__container{
+
+.recommanded__container
+ {
+display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin : 1px 10px;
+}
+.popular__container{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -68,11 +89,18 @@
     transition: all 0.3s ease;
     }
 .coursecard p{
-    margin: 10px;
+    margin: 5px;
 }
 .coursecard:hover , .topics__container p:hover{
     border-color: #007bff;
     box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.categories p:hover{
+    border-color: #A435F0;
+    box-shadow: 0 8px 20px #A435F0;
     transform: translateY(-5px);
     cursor: pointer;
 }
@@ -107,11 +135,11 @@
     padding: 10px;
     margin-top: 10px;
 }
-.popular__container{
+{
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .popular h1 ,h2{
     padding: 10px;
