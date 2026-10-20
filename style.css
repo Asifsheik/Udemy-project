@@ -178,21 +178,21 @@ display:flex;
 
 .context-section{
     margin-left: 10px ;
-/* }
+}
 .sale-image__offer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
-    top: 10px;
-    left: 40px;
-    gap: 20px;
-    width: 25%;
-    height: 70%;
+    top: 10%;
+    left: 2%;
+    width: 30%;
+    height: fit-content;
     align-items: left;
-    padding : 20px;
+    padding :2.5%;
+    gap: 10px;
     background-color: white;
-    border-radius: 2px;
+    margin-bottom: 2px;
 }
 .sale-image__sub{
     width: fit-content;
@@ -201,6 +201,7 @@ display:flex;
     background-color: white;
 }
 .sale-image{
+    display: flex;
     position: relative;
     width: 100%;
 }
@@ -213,4 +214,4 @@ display:flex;
 .sale-image__offer__button:hover{
     background-color: black;
     color: white;   
-} */
+} 
