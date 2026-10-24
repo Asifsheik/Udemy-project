@@ -29,6 +29,8 @@
     flex-grow: 1 ;
 }
 .navbar__s2 input{
+    display: flex;
+    flex-grow: 1;
     border: none;
     background-color: transparent;
 }
@@ -203,7 +205,8 @@ display:flex;
 .sale-image{
     display: flex;
     position: relative;
-    width: 100%;
+    width: fit-content;
+    box-sizing: border-box;
 }
 .sale-image__sub__term{
     width: fit-content;
