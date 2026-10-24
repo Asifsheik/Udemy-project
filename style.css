@@ -15,6 +15,10 @@
     z-index: 1;
     top: 0;
     background-color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
 }
 .navbar__s1
 {
@@ -32,6 +36,7 @@
     display: flex;
     flex-grow: 1;
     border: none;
+    background-color: transparent;
     background-color: transparent;
 }
 .navbar__s2 input:focus{
@@ -72,6 +77,8 @@
 .recommanded__container
  {
 display:flex;
+    justify-content: space-around;
+    left: 0;
     justify-content: space-around;
     left: 0;
     flex-wrap: wrap;
@@ -122,6 +129,7 @@ display:flex;
     border-radius: 10px;
     width: 100%;
     position: relative;
+    position: relative;
 }
 .topics{
     padding: 10px;
@@ -144,6 +152,7 @@ display:flex;
     padding: 10px;
     margin-top: 10px;
 }
+.categories p{
 .categories p{
     display: flex;
     flex-wrap: wrap;
