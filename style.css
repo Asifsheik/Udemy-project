@@ -152,7 +152,7 @@ display:flex;
     padding: 10px;
     margin-top: 10px;
 }
-.categories p{
+
 .categories p{
     display: flex;
     flex-wrap: wrap;
@@ -226,4 +226,4 @@ display:flex;
 .sale-image__offer__button:hover{
     background-color: black;
     color: white;   
-} 
+}
