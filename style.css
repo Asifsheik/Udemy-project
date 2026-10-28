@@ -227,3 +227,9 @@ display:flex;
     background-color: black;
     color: white;   
 }
+@media screen and (max-width:1200px)
+{
+    .sale-image__offer
+        display: hidden;
+
+}
