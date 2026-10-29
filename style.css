@@ -230,6 +230,6 @@ display:flex;
 @media screen and (max-width:1200px)
 {
     .sale-image__offer
-        display : none;
+        display: hidden;
 
 }
