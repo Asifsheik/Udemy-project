@@ -84,14 +84,15 @@
 
 .recommanded__container,.popular__container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
 }
 
 
 .coursecard {
     padding: 25px;
     width: 80%;
+    height: auto;
     text-align: center;
     background-color: #ffffff;
     border: 2px solid #e0e0e0;
@@ -208,6 +209,7 @@ h2 {
     gap: 10px;
     background-color: white;
     margin-bottom: 2px;
+    display: none;
 }
 
 .sale-image__sub {
@@ -262,4 +264,34 @@ h2 {
         grid-template-columns: repeat(1,1fr);
         grid-auto-flow: row;
     }
+}
+
+@media (min-width:900px){
+    .sale-image__offer {
+        display: none
+    };
+    .coursecard{
+        width: 1fr;
+    }
+    .recommanded__container{
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-flow: row;
+
+
+    }
+    .popular__container{
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-flow: row;
+    }
+}
+@media (min-width:1200px){
+    .sale-image__offer{
+display: flex;
+    }
+    .recommanded__container,.popular__container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+    
 }
